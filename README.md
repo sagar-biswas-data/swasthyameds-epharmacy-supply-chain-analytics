@@ -246,41 +246,15 @@ delays and improve customer experience?
 
 ## 🛠️ Tech Stack
 
-  -----------------------------------------------------------------------
-  Technology                               Purpose
-  ---------------------------------------- ------------------------------
-  **Python**                               Performed data preprocessing,
-                                           database connectivity, and
-                                           exploratory data analysis
-                                           (EDA).
-
-  **SQL (PostgreSQL)**                     Managed the database,
-                                           performed data cleaning and
-                                           transformations, and developed
-                                           analytical views for business
-                                           analysis.
-
-  **Power BI**                             Developed interactive
-                                           dashboards to monitor demand,
-                                           procurement expenditure,
-                                           supplier performance, and
-                                           fulfillment operations.
-
-  **Pandas & NumPy**                       Data manipulation,
-                                           preprocessing, aggregation,
-                                           and numerical analysis.
-
-  **Matplotlib & Seaborn**                 Data visualization and
-                                           exploratory data analysis.
-
-  **SQLAlchemy & Psycopg2**                Connected Python with
-                                           PostgreSQL for data loading
-                                           and analytical querying.
-
-  **Git & GitHub**                         Version control, project
-                                           documentation, and portfolio
-                                           hosting.
-  -----------------------------------------------------------------------
+| Technology | Purpose | 
+|------------|---------|
+| **Python** | Performed data preprocessing, database connectivity, and exploratory data analysis (EDA). | 
+| **SQL (PostgreSQL)** | Managed the database, performed data cleaning and transformations, and developed analytical views for business analysis. | 
+| **Power BI** | Developed interactive dashboards to monitor demand, procurement expenditure, supplier performance, and fulfillment operations.
+| **Pandas & NumPy** | Data manipulation, preprocessing, aggregation, and numerical analysis. | 
+| **Matplotlib & Seaborn** | Data visualization and exploratory data analysis. | 
+| **SQLAlchemy & Psycopg2** | Connected Python with PostgreSQL for data loading and analytical querying.
+| **Git & GitHub** | Version control, project documentation, and portfolio hosting.
 
 ------------------------------------------------------------------------
 
