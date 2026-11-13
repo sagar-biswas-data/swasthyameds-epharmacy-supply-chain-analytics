@@ -39,7 +39,7 @@ management. SwasthyaMeds aims to strengthen its supply chain operations
 through data-driven decision-making rather than relying on conventional
 inventory and procurement practices.
 
-This project analyzes operational data spanning **April 2024 to August
+This project analyzes operational data spanning **April 2024 to July
 2026** and concludes with a comprehensive business report containing
 strategic recommendations for demand-driven inventory allocation,
 procurement cost optimization, and fulfillment and delivery performance
@@ -264,93 +264,23 @@ The project uses **11 datasets** covering pharmaceutical products,
 customers, suppliers, procurement, warehouse infrastructure, order
 management, and last-mile delivery across West Bengal, India.
 
-  ------------------------------------------------------------------------------------
-  Dataset                       Description             Primary Purpose
-  ----------------------------- ----------------------- ------------------------------
-  **dim_products**              Product master          Product catalogue analysis,
-                                containing medicine     SKU-level demand analysis, and
-                                names, brands,          category performance
-                                categories, dosage      evaluation.
-                                forms, pricing, shelf   
-                                life, and storage       
-                                attributes.             
 
-  **dim_customers**             Customer information    Customer segmentation,
-                                covering geographical   geographical demand analysis,
-                                locations, customer     and customer behaviour
-                                segments, pincodes, and analysis.
-                                signup dates.           
+## Dataset Documentation
 
-  **dim_dark_stores**           Dark-store information  Dark-store performance
-                                including locations,    evaluation and location-level
-                                warehouse associations, demand and delivery analysis.
-                                storage capacity,       
-                                geographical            
-                                coordinates, and        
-                                operational status.     
+| Dataset | Description | Primary Purpose |
+|---|---|---|
+| **dim_products** | Product master containing medicine names, brands, categories, dosage forms, pricing, shelf life, and storage attributes. | Product catalogue analysis, SKU-level demand analysis, and category performance evaluation. |
+| **dim_customers** | Customer information covering geographical locations, customer segments, pincodes, and signup dates. | Customer segmentation, geographical demand analysis, and customer behaviour analysis. |
+| **dim_dark_stores** | Dark-store information including locations, warehouse associations, storage capacity, geographical coordinates, and operational status. | Dark-store performance evaluation and location-level demand and delivery analysis. |
+| **dim_suppliers** | Supplier master containing supplier types, locations, service regions, payment terms, and operational status. | Supplier segmentation and procurement performance analysis. |
+| **dim_mother_warehouses** | Mother warehouse information covering locations, storage capacity, operating costs, and geographical coordinates. | Warehouse network analysis and supply chain infrastructure overview. |
+| **dim_delivery_executives** | Delivery workforce information including executive details, geographical assignments, vehicle types, and active status. | Delivery workforce availability, workload, and performance analysis. |
+| **dim_supplier_products** | Supplier–product relationships containing minimum order quantities, expected lead times, fulfillment rates, and contract validity. | Supplier-product evaluation and procurement efficiency analysis. |
+| **fact_orders** | Customer order records containing order details, order values, order status, payment information, and promised delivery timestamps. | Order trends, customer demand, and order-level performance analysis. |
+| **fact_order_items** | Product-level order transactions containing quantities, selling prices, discounts, and net item values. | Product demand, category contribution, and sales analysis. |
+| **fact_purchase_orders** | Procurement records containing ordered and received quantities, supplier costs, discounts, delivery dates, and purchase order fulfillment information. | Procurement expenditure, purchasing volume, and supplier performance analysis. |
+| **fact_deliveries** | Fulfillment and last-mile delivery records containing picking, packing, delivery executive assignment, delivery timestamps, delivery status, distance, and failure reasons. | Fulfillment efficiency, delivery time, workforce performance, and delivery failure analysis. |
 
-  **dim_suppliers**             Supplier master         Supplier segmentation and
-                                containing supplier     procurement performance
-                                types, locations,       analysis.
-                                service regions,        
-                                payment terms, and      
-                                operational status.     
-
-  **dim_mother_warehouses**     Mother warehouse        Warehouse network analysis and
-                                information covering    supply chain infrastructure
-                                locations, storage      overview.
-                                capacity, operating     
-                                costs, and geographical 
-                                coordinates.            
-
-  **dim_delivery_executives**   Delivery workforce      Delivery workforce
-                                information including   availability, workload, and
-                                executive details,      performance analysis.
-                                geographical            
-                                assignments, vehicle    
-                                types, and active       
-                                status.                 
-
-  **dim_supplier_products**     Supplier--product       Supplier-product evaluation
-                                relationships           and procurement efficiency
-                                containing minimum      analysis.
-                                order quantities,       
-                                expected lead times,    
-                                fulfillment rates, and  
-                                contract validity.      
-
-  **fact_orders**               Customer order records  Order trends, customer demand,
-                                containing order        and order-level performance
-                                details, order values,  analysis.
-                                order status, payment   
-                                information, and        
-                                promised delivery       
-                                timestamps.             
-
-  **fact_order_items**          Product-level order     Product demand, category
-                                transactions containing contribution, and sales
-                                quantities, selling     analysis.
-                                prices, discounts, and  
-                                net item values.        
-
-  **fact_purchase_orders**      Procurement records     Procurement expenditure,
-                                containing ordered and  purchasing volume, and
-                                received quantities,    supplier performance analysis.
-                                supplier costs,         
-                                discounts, delivery     
-                                dates, and purchase     
-                                order fulfillment       
-                                information.            
-
-  **fact_deliveries**           Fulfillment and         Fulfillment efficiency,
-                                last-mile delivery      delivery time, workforce
-                                records containing      performance, and delivery
-                                picking, packing, DE    failure analysis.
-                                assignment, delivery    
-                                timestamps, delivery    
-                                status, distance, and   
-                                failure reasons.        
-  ------------------------------------------------------------------------------------
 
 > **Note:** The repository includes a separate data documentation file
 > describing the datasets, their columns, and their usage. The CSV
@@ -786,17 +716,6 @@ analytics, intelligent automation, and scalable data infrastructure:
     to estimate delivery times using historical fulfillment performance,
     city-level traffic patterns, delivery distances, and delivery
     executive availability.
--   **Real-Time Data Pipeline** -- Integrate automated data ingestion
-    and synchronization to continuously update the PostgreSQL database
-    and Power BI dashboards with the latest operational data.
--   **Automated ETL Workflow** -- Schedule dataset ingestion, data
-    cleaning, SQL transformations, analytical view updates, and
-    dashboard refreshes using workflow orchestration tools such as
-    Apache Airflow.
--   **Cloud Database & Dashboard Deployment** -- Deploy the PostgreSQL
-    database and analytics infrastructure on cloud platforms such as
-    Microsoft Azure or AWS to improve scalability, accessibility, and
-    maintainability.
 -   **Interactive Supply Chain Analytics Application** -- Develop a
     web-based analytics portal using Streamlit or Dash, enabling
     stakeholders to explore product demand, procurement performance,
@@ -809,7 +728,8 @@ analytics, intelligent automation, and scalable data infrastructure:
 
 **Sagar Biswas**
 
--   **GitHub:** https://github.com/sagar-biswas-data
+- **GitHub:** https://github.com/sagar-biswas-data
+- **LinkedIn:** https://linkedin.com/in/sagar-biswas-data
+- **Email:** sagarbiswas.ds29@gmail.com
 
-If you found this project interesting or have any feedback, feel free to
-connect with me!
+If you found this project interesting or have any feedback, feel free to connect with me!
