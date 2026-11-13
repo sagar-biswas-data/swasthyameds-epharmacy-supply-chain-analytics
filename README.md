@@ -264,6 +264,9 @@ The project uses **11 datasets** covering pharmaceutical products,
 customers, suppliers, procurement, warehouse infrastructure, order
 management, and last-mile delivery across West Bengal, India.
 
+📂 **Download Complete Datasets: [Access the SwasthyaMeds Datasets](https://drive.google.com/file/d/1Ob0zSwPy7SY6Rfxep2-stxFHIRqLCrZ8/view?usp=drive_link)**
+
+The datasets are hosted on Google Drive due to their combined file size. Refer to the table below for individual dataset descriptions and their primary purposes.
 
 ## Dataset Documentation
 
