@@ -8,8 +8,6 @@ This directory documents the **11 CSV datasets** used in the **SwasthyaMeds – 
 
 The CSV files are hosted on Google Drive rather than committed to GitHub because the complete data folder is approximately **341 MB**. Open the link, download the files (Google Drive may bundle them as a ZIP), and extract them into this `01_data/` directory. Ensure the CSVs are directly inside `01_data/`, not an extra nested folder.
 
-> **Access note:** The owner must set Google Drive sharing to **Anyone with the link → Viewer**. This document cannot verify the current sharing permissions.
-
 ## Dataset inventory
 
 Counts and column types below were transcribed from the provided Jupyter `DataFrame.info()` screenshots. The names are presented as the expected CSV filenames; verify the filenames match the actual files in Drive before running the loader.
