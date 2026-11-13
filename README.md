@@ -375,12 +375,12 @@ SwasthyaMeds-E-Pharmacy-Supply-Chain-Analytics/
 
 The Power BI solution consists of **four interconnected dashboards**
 that provide executive, product, procurement, and operational views of
-SwasthyaMeds' e-pharmacy supply chain, enabling stakeholders to monitor
+SwasthyaMeds e-pharmacy supply chain, enabling stakeholders to monitor
 performance and support data-driven decision-making.
 
 ### 📈 Dashboard 1: Executive Supply Chain Overview
 
-Provides a consolidated view of SwasthyaMeds' overall supply chain
+Provides a consolidated view of SwasthyaMeds overall supply chain
 health by bringing together key business, financial, and operational
 performance indicators. It monitors order volumes, product sales,
 procurement expenditure, customer activity, geographical demand
