@@ -401,13 +401,9 @@ consumption patterns, and dark-store performance. The dashboard helps
 identify high-demand products, major consumption markets, and
 opportunities for more efficient inventory allocation.
 
-```{=html}
 <p align="center">
-```
-`<img src="07_screenshots/02_product_and_demand_analysis.jpg" width="100%">`{=html}
-```{=html}
+  <img src="07_screenshots/02_product_and_demand_analysis.jpg" width="100%">
 </p>
-```
 
 ------------------------------------------------------------------------
 
@@ -421,13 +417,9 @@ product-level procurement costs. The dashboard supports the
 identification of potential over-procurement, supplier dependency, and
 opportunities to optimize purchasing decisions.
 
-```{=html}
 <p align="center">
-```
-`<img src="07_screenshots/03_procurement_and_cost_optimization.jpg" width="100%">`{=html}
-```{=html}
+  <img src="07_screenshots/03_procurement_and_cost_optimization.jpg" width="100%">
 </p>
-```
 
 ------------------------------------------------------------------------
 
@@ -440,13 +432,9 @@ average delivery time, delivery stage contributions, monthly delivery
 trends, city-level performance, and the leading causes of unsuccessful
 delivery attempts.
 
-```{=html}
 <p align="center">
-```
-`<img src="07_screenshots/04_fulfillment_and_delivery_performance.jpg" width="100%">`{=html}
-```{=html}
+  <img src="07_screenshots/04_fulfillment_and_delivery_performance.jpg" width="100%">
 </p>
-```
 
 ------------------------------------------------------------------------
 
