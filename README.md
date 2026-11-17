@@ -386,13 +386,9 @@ performance indicators. It monitors order volumes, product sales,
 procurement expenditure, customer activity, geographical demand
 distribution, supplier sourcing patterns, and order fulfillment status.
 
-```{=html}
 <p align="center">
-```
-`<img src="07_screenshots/01_executive_supply_chain_overview.jpg" width="100%">`{=html}
-```{=html}
+  <img src="07_screenshots/01_executive_supply_chain_overview.jpg" width="100%">
 </p>
-```
 
 ------------------------------------------------------------------------
 
